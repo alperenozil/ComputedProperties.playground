@@ -1,7 +1,9 @@
 import UIKit
 
-let pizzaInches: Int = 10
+let pizzaInches: Int = 14
 
-var numberOfSlices: Int = 6
+var numberOfSlices: Int {
+    return pizzaInches-4
+}
 
 print(numberOfSlices)
